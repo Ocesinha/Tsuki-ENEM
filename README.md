@@ -1,5 +1,6 @@
 ## 🌙 **Welcome to TSUKI!**  
 ![tsuki](https://github.com/user-attachments/assets/4f7f4771-cb1c-4889-8d4f-39f9f7da97d0)  
+<img src="https://github.com/user-attachments/assets/4f7f4771-cb1c-4889-8d4f-39f9f7da97d0" width="150px" height="auto">
 
 ### 📌 **About the Project**  
 TSUKI is a chatbot designed to assist students preparing for the **ENEM** (Brazilian National High School Exam).  
