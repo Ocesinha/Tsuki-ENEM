@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Tsuki</title>
+</head>
+<body>
+<div id="all">
+
+    <section id="dialog">
+        <p class="text">Olá mestre! Como vai seu dia?</p>
+        <div class="btns">
+        <button id="btn_prox" class="btn">prox.</button>
+        </div>
+    </section> 
+
+    <form id="form_name">
+        <label for="name">Digite seu Nome:</label> 
+        <input type="text" alt="name" id="name" name="name" placeholder="Seu nome...">
+        <button type="submit" class="btn">Enviar!</button>
+     </form>
+
+     <section id="close_menu">
+        <p>Deseja encerrar a Tsuki?</p>
+        <div>
+        <button class="close_true btn">Sim</button>
+        <button class="close_false btn">Não</button>
+        </div>
+     </section>
+ 
+ 
+
+<section id="bot">
+    <img id="tsuki" src="../public/assets/imgs/normal.png" draggable="false">
+
+</section>
+<section id="options">
+    <button id="btn_move" class="btn">Mover</button>
+    <button id="btn_close" class="btn">Fechar</button>
+</section>
+</div>
+
+
+
+
+</body>
+
+<script src="../public/assets/js/renderer.js"></script>
+<script src="../public/assets/js/dialogs/init.js"></script>
+<script src="../public/assets/js/dialogs/getname.js"></script>
+<script src="../public/assets/js/dialogs/rand_dialogs_state.js"></script>
+<script src="../public/assets/js/dialogs/normal_state.js"></script>
+<script src="../public/assets/js/dialogs/water_state.js"></script>
+<script src="../public/assets/js/dialogs/bible_state.js"></script>
+<script src="../public/assets/js/dialogs/enem_state.js"></script>
+<script src="../public/assets/js/buttons.js"></script>
+
+
+</html>

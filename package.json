@@ -1,0 +1,44 @@
+{
+  "name": "tsuki",
+  "version": "1.0.0",
+  "description": "Tsuki is a study bot aimed at the Brazilian national high school exam (ENEM)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "10.cesar_",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.3.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.tsuki.id",
+    "productName": "Tsuki Enem",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./public/assets/icon/icon.ico"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "./public/assets/icon/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "./public/assets/icon/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true
+    }
+  }
+}

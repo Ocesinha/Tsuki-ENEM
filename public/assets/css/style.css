@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 600;
+}
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+#bot{
+    width: 220px;
+    max-height: 350px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#options{
+    width: 70%;
+    height: 5%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #d7a7e9;
+    border: 2px solid white;
+}
+
+
+.btn{
+    padding: 3px;
+    border: none;
+    background-color: #c38fdd;
+    color: white;
+    border-radius: 5px;
+    margin: 3px;
+    transition: 0.5s ease;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #af76d2;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+#tsuki{
+    width: 200px;
+    height: 200px;
+}
+#dialog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 180px;
+    height: 110px;
+    background-color: #d7a7e9;
+    border: solid 2px white;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out, visibility 1s;
+}
+.text{
+    margin: 2px;
+}
+#form_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #d7a7e9;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    z-index: 999;
+    position: absolute;
+    top: 0.5%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, visibility 0.5s;
+}
+#name{
+    margin: 10px;
+    color: black;
+    border: none;
+    width: 90%;
+    height: 25px;
+    border-radius: 8px;
+}
+#name:focus{
+    border: none;
+    outline: none;
+}
+#close_menu{
+    display: flex;
+    color: white;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #d7a7e9;
+    border: 2px solid white;
+    border-radius: 10px;
+    z-index: 999;
+    position: absolute;
+    top: 0.5%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, visibility 0.5s;
+    margin-bottom: 5px;
+}
+#close_menu div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
