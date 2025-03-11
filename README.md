@@ -17,6 +17,12 @@ It provides support through **random questions, conversations, study reminders, 
 
 ---
 
+## 📥 Download
+
+[![Download Tsuki v1.0.0](https://img.shields.io/badge/Download-Tsuki%20v1.0.0-blue?style=for-the-badge&logo=github)](https://github.com/Ocesinha/Tsuki-ENEM/releases/latest)
+
+---
+
 ## 👥 **Installation**  
 
 1. **Clone the repository**:  
